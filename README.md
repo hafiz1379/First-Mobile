@@ -163,8 +163,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
 👤 Hafizullah Rasa
 
 - GitHub: [@githubhandle](https://github.com/hafiz1379)
@@ -176,8 +174,6 @@ You can deploy this project using:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-
 
 - [] add header.
 - [] add footer.
