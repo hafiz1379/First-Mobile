@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="./77.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hello Microverse</b></h3>
+  <h3><b>First Portfolio</b></h3>
 
 </div>
 
@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Hello Microverse <a name="about-project"></a>
 
-> This is Hello Microverse project! created it by using HTML and CSS.
+> This is my Firsr Portfolio project! created it by using HTML and CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -175,8 +175,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [] add header.
-- [] add footer.
+- [] add new tags.
 - [] add new styles.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
