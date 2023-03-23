@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 First Portfolio <a name="about-project"></a>
 
 > This is my Firsr Portfolio project! created it by using HTML and CSS.
 
@@ -72,7 +72,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+>
 
 <details>
   <summary>Client</summary>
@@ -86,8 +86,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - Added index.html file.
 - Added style.css file.
 
@@ -96,8 +94,6 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Coming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
