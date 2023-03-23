@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 First Portfolio <a name="about-project"></a>
 
-> This is my Firsr Portfolio project! created it by using HTML and CSS.
+> This is my First Portfolio project! created it by using HTML and CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
