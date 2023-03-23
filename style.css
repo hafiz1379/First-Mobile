@@ -3,68 +3,73 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-image: url(header-shapes\ mobile.png);
   background-size: cover;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   width: 375px;
   height: 718px;
   margin: auto;
 }
+
 .header {
   height: 50px;
-
   display: flex;
 }
+
 .header .left {
   width: 50%;
   height: 100%;
 }
+
 .header .left .logo {
   font-size: 18px;
   font-weight: 700;
-  font-family: Poppins;
   padding: 8px;
   color: #6070ff;
 }
+
 .header .right {
   width: 50%;
   height: 100%;
   flex-direction: row;
   align-content: end;
 }
+
 .header .right .menubar {
   display: flex;
   flex-direction: column;
   align-items: end;
   padding: 12px;
 }
+
 .header .right .menubar .menubar1 {
   border: 2px solid #6070ff;
   width: 20px;
   margin: 1px;
 }
+
 .header .right .menubar .menubar2 {
   border: 2px solid #6070ff;
   width: 20px;
   margin: 1px;
 }
+
 .header .right .menubar .menubar3 {
   border: 2px solid #6070ff;
   width: 20px;
   margin: 1px;
 }
+
 .container {
   width: 375px;
   margin-top: 114px;
-  text-align: center;
-  left: 0;
-  text-align: justify;
 }
+
 .container .name {
-  width: 327%;
+  width: 327px;
   height: 150px;
-  font-family: Poppins;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -73,18 +78,18 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .container .bio {
   width: 327px;
   height: 146px;
-  left: 0px;
-  top: 0px;
-
+  left: 0;
+  top: 0;
   margin-top: 30px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+
   /* or 150% */
 
   /* Neutrals/N600 */
@@ -97,17 +102,19 @@ body {
   order: 1;
   flex-grow: 0;
 }
+
 .container .lets_contact {
   width: 127px;
   height: 24px;
   margin-top: 12px;
 }
+
 .container .lets_contact .contact {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+
   /* identical to box height, or 150% */
 
   /* Primary/B300 */
@@ -120,6 +127,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .social {
   padding-top: 5%;
   margin: 0 auto;
