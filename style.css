@@ -14,7 +14,7 @@ body {
 .header {
   height: 50px;
   display: flex;
-  background-image: url(header-background-mobile\\(1\).png);
+  background-image: url(header-background-mobile\ \(1\) .png);
   background-size: cover;
 }
 
@@ -22,9 +22,20 @@ body {
   width: 50%;
   height: 100%;
 }
+
+.social-icon a {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 40px;
+  color: #333;
+}
+
 .header .left a {
   text-decoration: none;
 }
+
 .header .left .logo {
   font-size: 18px;
   font-weight: 700;
@@ -151,15 +162,6 @@ body {
 .social-icon {
   list-style: none;
   margin: 0 10px;
-}
-
-.social-icon a {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  text-align: center;
-  line-height: 40px;
-  color: #333;
 }
 
 .social-icon a:hover {
