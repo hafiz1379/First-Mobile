@@ -223,6 +223,7 @@ body {
   list-style-type: none;
   width: 120px;
 }
+
 .item1 {
   display: flex;
   align-items: center;
@@ -439,6 +440,7 @@ body {
 .see-btn {
   text-decoration: none;
 }
+
 .se {
   width: 102px;
   height: 24px;
@@ -690,6 +692,7 @@ body {
 .soc1 {
   color: #acb7c3;
 }
+
 .w {
   width: 327px;
   margin: 10px;
