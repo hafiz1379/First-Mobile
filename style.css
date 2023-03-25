@@ -106,15 +106,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* or 150% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -132,15 +124,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-
-  /* identical to box height, or 150% */
-
-  /* Primary/B300 */
-
   color: #7f8cff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -172,7 +156,6 @@ body {
   font-size: 20px;
 }
 
-/* Add some margin between the icons */
 .social-icon + .social-icon {
   margin-left: 10px;
 }
@@ -184,75 +167,52 @@ body {
   align-items: center;
   padding: 16px;
   gap: 12px;
-
   width: 327px;
   height: 552px;
-
-  /* Neutrals/N0 */
-
-  background: #ffffff;
-  /* Neutrals/N40 */
-
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .shot {
   width: 295px;
   height: 220px;
   background: url(./images/Snapshoot\ Portfolio.png);
   border-radius: 8px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
+
 .bo {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 12px;
-
   width: 295px;
   height: 288px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
 }
+
 .pro-title {
   width: 295px;
   height: 36px;
-
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  /* or 138% */
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 .item-parrent {
-  /* Auto layout */
 
   display: flex;
   flex-direction: row;
@@ -260,12 +220,8 @@ body {
   align-self: self-start;
   padding: 0px;
   gap: 12px;
-
   width: 236px;
   height: 32px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -275,12 +231,8 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 8px 0px;
-
   width: 55px;
   height: 32px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -289,22 +241,12 @@ body {
   width: 55px;
   height: 16px;
   padding-left: 4px;
-
-  /* Caption / 1 - Bolder */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 550;
   font-size: 13px;
   line-height: 16px;
-  /* identical to box height, or 123% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -313,29 +255,18 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  /* Neutrals/N50 */
-
   background: #c1c7d0;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 .item3 {
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 8px 0px;
-
   width: 75px;
   height: 32px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -343,22 +274,12 @@ body {
 .back {
   width: 88px;
   height: 16px;
-
-  /* Caption / 1 - Bolder */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 550;
   font-size: 11px;
   line-height: 16px;
-  /* identical to box height, or 123% */
-
-  /* Neutrals/N100 */
-
   color: #7a869a;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -367,29 +288,18 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  /* Neutrals/N50 */
-
   background: #c1c7d0;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 3;
   flex-grow: 0;
 }
 .item5 {
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 8px 0px;
-
   width: 29px;
   height: 32px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 4;
   flex-grow: 0;
@@ -397,22 +307,12 @@ body {
 .year {
   width: 29px;
   height: 16px;
-
-  /* Caption / 1 - Bolder */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  /* identical to box height, or 123% */
-
-  /* Neutrals/N100 */
-
   color: #7a869a;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -420,22 +320,12 @@ body {
 .text {
   width: 295px;
   height: 76px;
-
-  /* Body / 3 */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 450;
   font-size: 15px;
   line-height: 24px;
-  /* or 160% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -447,12 +337,8 @@ body {
   align-self: start;
   padding: 0px;
   gap: 8px;
-
   width: 214px;
   height: 24px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -462,17 +348,10 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-
   width: 57px;
   height: 24px;
-
-  /* Primary/B50 */
-
   background: #ebebff;
   border-radius: 8px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -480,24 +359,13 @@ body {
 .h {
   width: 33px;
   height: 16px;
-
-  /* Button / Small */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 550;
   font-size: 12px;
   line-height: 16px;
-  /* identical to box height, or 133% */
-
   letter-spacing: 0.03em;
-
-  /* Primary/B400 */
-
   color: #6070ff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -507,17 +375,10 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-
   width: 49px;
   height: 24px;
-
-  /* Primary/B50 */
-
   background: #ebebff;
   border-radius: 8px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -525,24 +386,13 @@ body {
 .c {
   width: 25px;
   height: 16px;
-
-  /* Button / Small */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 550;
   font-size: 12px;
   line-height: 16px;
-  /* identical to box height, or 133% */
-
   letter-spacing: 0.03em;
-
-  /* Primary/B400 */
-
   color: #6070ff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -552,17 +402,10 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-
   width: 92px;
   height: 24px;
-
-  /* Primary/B50 */
-
   background: #ebebff;
   border-radius: 8px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -570,24 +413,13 @@ body {
 .j {
   width: 68px;
   height: 16px;
-
-  /* Button / Small */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 550;
   font-size: 12px;
   line-height: 16px;
-  /* identical to box height, or 133% */
-
   letter-spacing: 0.03em;
-
-  /* Primary/B400 */
-
   color: #6070ff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -595,58 +427,38 @@ body {
 .action {
   width: 295px;
   height: 72px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 3;
   flex-grow: 0;
 }
 .boxx {
   box-sizing: border-box;
-
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 12px;
   margin-top: 14px;
-
   position: absolute;
   width: 126px;
   height: 48px;
-
-  /* Primary/B400 */
-
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
 .se {
   width: 102px;
   height: 24px;
-
-  /* Button /Normal */
   color: #396df2;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 510;
   font-size: 17px;
   line-height: 24px;
-  /* identical to box height, or 141% */
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-
-  /* Primary/B500 */
-
   color: #396df2;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -657,12 +469,9 @@ body {
   width: 375px;
   height: 1263px;
   margin-top: 80px;
-  /* Neutrals/N0 */
-  background: #ffffff;
+  background: #fff;
 }
 .top {
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -672,9 +481,6 @@ body {
   margin-top: 114px;
   width: 327px;
   height: 346px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -683,24 +489,14 @@ body {
   width: 327px;
   height: 35px;
   padding: 114px 12px;
-  /* Header / 2 */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 52px;
-  /* or 130% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N800 */
-
   color: #172b4d;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -710,39 +506,24 @@ body {
   height: 147px;
   margin-top: -200px;
   padding: 12px;
-  /* Body / 2 */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 .footerbox {
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   gap: 8px;
-
   width: 117px;
   height: 24px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -750,9 +531,6 @@ body {
 .lets {
   width: 197px;
   height: 24px;
-
-  /* Body / 2 - Bolder */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
@@ -760,23 +538,13 @@ body {
   line-height: 24px;
   margin-top: 22px;
   padding: 12px;
-  /* identical to box height, or 150% */
-
-  /* Primary/B300 */
-
   color: #7f8cff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 .box3 {
   box-sizing: border-box;
-
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -785,14 +553,8 @@ body {
   margin-left: 12px;
   width: 162px;
   height: 48px;
-
-  /* Primary/B400 */
-
   border: 1px solid #6070ff;
   border-radius: 8px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -800,27 +562,15 @@ body {
 .box3c {
   width: 138px;
   height: 24px;
-
-  /* Button /Normal */
-
-  font-family: "Poppins";
   font-style: normal;
   font-weight: b;
   font-size: 17px;
   line-height: 24px;
-  /* identical to box height, or 141% */
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-
-  /* Primary/B500 */
-
   color: #396df2;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -834,25 +584,17 @@ body {
   margin-top: 15px;
   width: 327px;
   height: 464.15px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 .frame1 {
-  /* Auto layout */
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   width: 327px;
   height: 320.15px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -861,7 +603,6 @@ body {
   width: 327px;
   height: 72px;
   margin: -310px;
-  /* Inside auto layout */
   display: flex;
   flex: none;
   order: 0;
@@ -875,18 +616,13 @@ body {
   position: absolute;
   padding: 24px 50px;
   text-align: center;
-  /* Body / 1 - Bolder */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500px;
   font-size: 20px;
   line-height: 24px;
-  /* identical to box height, or 120% */
-
   display: flex;
   align-items: center;
-
   color: #000000;
 }
 .framer {
@@ -909,9 +645,6 @@ body {
   width: 327px;
   height: 248.15px;
   margin-top: -385px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -919,13 +652,8 @@ body {
 .jsfr {
   width: 303px;
   height: 66.72px;
-  /* Neutrals/N10 */
-
   background: #f7f7f9;
   border-radius: 8px;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -933,39 +661,25 @@ body {
 .jste {
   position: absolute;
   padding: 20px 80px 20px;
-
-  /* Body / 3 - Bolder */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 20px;
-  /* or 133% */
-
   display: flex;
   align-items: center;
-
-  /* Neutrals/N700 */
-
   color: #253858;
 }
 .im {
   position: absolute;
   left: 20px;
   padding: 7px;
-
-  /* Neutrals/N0 */
-
   border: 1px solid #ffffff;
 }
 .endtop {
   width: 327px;
   height: 72px;
   display: flex;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -983,19 +697,13 @@ body {
 .framworks {
   position: absolute;
   padding: 25px 30px;
-
-  /* Body / 1 - Bolder */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
-  /* identical to box height, or 120% */
-
   display: flex;
   align-items: center;
-
   color: #000000;
 }
 .w {
