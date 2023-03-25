@@ -7,8 +7,10 @@
 
 body {
   width: 375px;
-  height: 718px;
+  height: 738px;
   margin: auto;
+  background-color: #fff;
+  border-radius: 0 0 0 70px;
 }
 
 .header {
@@ -46,7 +48,6 @@ body {
 .header .right {
   width: 50%;
   height: 100%;
-  flex-direction: row;
   align-content: end;
 }
 
@@ -102,7 +103,6 @@ body {
   left: 0;
   top: 0;
   padding: 3px 12px 24px;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -120,7 +120,6 @@ body {
 }
 
 .container .lets_contact .contact {
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -153,7 +152,9 @@ body {
 }
 
 .social-icon a i {
+  margin-left: 20px;
   font-size: 20px;
+  color: #505f79;
 }
 
 .social-icon + .social-icon {
@@ -162,9 +163,7 @@ body {
 
 .deatails {
   margin-top: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
   padding: 16px;
   gap: 12px;
   width: 327px;
@@ -172,9 +171,6 @@ body {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .shot {
@@ -202,7 +198,6 @@ body {
 .pro-title {
   width: 295px;
   height: 36px;
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -214,7 +209,6 @@ body {
 
 .item-parrent {
   display: flex;
-  flex-direction: row;
   align-items: center;
   align-self: self-start;
   gap: 12px;
@@ -225,9 +219,12 @@ body {
   flex-grow: 0;
 }
 
+.item-list {
+  list-style-type: none;
+  width: 120px;
+}
 .item1 {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -240,7 +237,6 @@ body {
   width: 55px;
   height: 16px;
   padding-left: 4px;
-  font-style: normal;
   font-weight: 550;
   font-size: 13px;
   line-height: 16px;
@@ -262,19 +258,18 @@ body {
 
 .item3 {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
   width: 75px;
   height: 32px;
   flex: none;
+  order: 2;
 }
 
 .back {
   width: 88px;
   height: 16px;
-  font-style: normal;
   font-weight: 550;
   font-size: 11px;
   line-height: 16px;
@@ -295,7 +290,6 @@ body {
 
 .item5 {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -308,7 +302,6 @@ body {
 .year {
   width: 29px;
   height: 16px;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -321,7 +314,6 @@ body {
 .text {
   width: 295px;
   height: 76px;
-  font-style: normal;
   font-weight: 450;
   font-size: 15px;
   line-height: 24px;
@@ -332,7 +324,6 @@ body {
 
 .tags {
   display: flex;
-  flex-direction: row;
   align-items: center;
   align-self: start;
   gap: 8px;
@@ -342,11 +333,15 @@ body {
   order: 2;
 }
 
-.html {
+.ul {
+  list-style-type: none;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: space-around;
+}
+
+.html {
   padding: 4px 12px;
+  margin: 20px 1px;
   width: 57px;
   height: 24px;
   background: #ebebff;
@@ -359,7 +354,6 @@ body {
 .h {
   width: 33px;
   height: 16px;
-  font-style: normal;
   font-weight: 550;
   font-size: 12px;
   line-height: 16px;
@@ -371,10 +365,8 @@ body {
 }
 
 .css {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 4px 12px;
+  margin: 20px 1px;
   width: 49px;
   height: 24px;
   background: #ebebff;
@@ -387,7 +379,6 @@ body {
 .c {
   width: 25px;
   height: 16px;
-  font-style: normal;
   font-weight: 550;
   font-size: 12px;
   line-height: 16px;
@@ -399,10 +390,8 @@ body {
 }
 
 .js {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 4px 12px;
+  margin: 20px 1px;
   width: 92px;
   height: 24px;
   background: #ebebff;
@@ -415,7 +404,6 @@ body {
 .j {
   width: 68px;
   height: 16px;
-  font-style: normal;
   font-weight: 550;
   font-size: 12px;
   line-height: 16px;
@@ -437,7 +425,6 @@ body {
 .boxx {
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 12px;
@@ -449,11 +436,13 @@ body {
   border-radius: 8px;
 }
 
+.see-btn {
+  text-decoration: none;
+}
 .se {
   width: 102px;
   height: 24px;
   color: #396df2;
-  font-style: normal;
   font-weight: 510;
   font-size: 17px;
   line-height: 24px;
@@ -474,11 +463,11 @@ body {
 
 .top {
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 12px;
-  margin-top: 114px;
+  margin-top: 20px;
+  margin-left: 12px;
   width: 327px;
   height: 346px;
   flex: none;
@@ -488,7 +477,6 @@ body {
   width: 327px;
   height: 35px;
   padding: 114px 12px;
-  font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 52px;
@@ -502,8 +490,8 @@ body {
   width: 327px;
   height: 147px;
   margin-top: -200px;
+  margin-left: 12px;
   padding: 12px;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -514,7 +502,6 @@ body {
 
 .footerbox {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 8px;
   width: 117px;
@@ -525,11 +512,11 @@ body {
 .lets {
   width: 197px;
   height: 24px;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   margin-top: 22px;
+  margin-left: 12px;
   padding: 12px;
   color: #7f8cff;
   flex: none;
@@ -538,11 +525,10 @@ body {
 .box3 {
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-  margin-left: 12px;
+  margin-left: 32px;
   width: 162px;
   height: 48px;
   border: 1px solid #6070ff;
@@ -554,7 +540,6 @@ body {
 .box3c {
   width: 138px;
   height: 24px;
-  font-style: normal;
   font-weight: b;
   font-size: 17px;
   line-height: 24px;
@@ -602,9 +587,8 @@ body {
 
 .lan {
   position: absolute;
-  padding: 24px 50px;
+  padding: 24px 38px;
   text-align: center;
-  font-style: normal;
   font-weight: 500px;
   font-size: 20px;
   line-height: 24px;
@@ -616,8 +600,8 @@ body {
 .framer {
   width: 30%;
   height: 100%;
-  flex-direction: row;
   align-content: end;
+  color: #acb7c3;
 }
 
 .soc {
@@ -634,7 +618,9 @@ body {
   gap: 12px;
   width: 327px;
   height: 248.15px;
-  margin-top: -385px;
+  margin: auto;
+  margin-top: -390px;
+  list-style-type: none;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -653,7 +639,6 @@ body {
 .jste {
   position: absolute;
   padding: 20px 80px 20px;
-  font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 20px;
@@ -665,7 +650,8 @@ body {
 .im {
   position: absolute;
   left: 20px;
-  padding: 7px;
+  padding-top: 8px;
+  padding-left: 25px;
   border: 1px solid #fff;
 }
 
@@ -676,6 +662,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  color: #acb7c3;
 }
 
 .endl {
@@ -686,14 +673,12 @@ body {
 .endr {
   width: 30%;
   height: 100%;
-  flex-direction: row;
   align-content: end;
 }
 
 .framworks {
   position: absolute;
-  padding: 25px 30px;
-  font-style: normal;
+  padding: 25px 45px;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
@@ -702,6 +687,10 @@ body {
   color: #000;
 }
 
+.soc1 {
+  color: #acb7c3;
+}
 .w {
   width: 327px;
+  margin: 10px;
 }
