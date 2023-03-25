@@ -461,6 +461,7 @@ body {
   height: 1263px;
   margin-top: 80px;
   background: #fff;
+  border-radius: 0 70px 0 0;
 }
 
 .top {
