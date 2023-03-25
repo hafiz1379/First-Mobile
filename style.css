@@ -5,6 +5,9 @@
   font-family: "Poppins", sans-serif;
 }
 
+html{
+  background-color: #E5E5E5;
+}
 body {
   width: 375px;
   height: 738px;
