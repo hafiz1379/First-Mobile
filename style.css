@@ -22,6 +22,7 @@ body {
   display: flex;
   background-image: url(./images/header-background-mobile.png);
   background-size: cover;
+  margin-left: 12px;
 }
 
 .header .left {
@@ -33,7 +34,6 @@ body {
   display: inline-block;
   width: 18px;
   height: 18px;
-  text-align: center;
   line-height: 40px;
   color: #333;
 }
@@ -93,7 +93,7 @@ body {
   height: 150px;
   font-weight: 700;
   font-size: 40px;
-  padding: 90px 12px 170px;
+  padding: 90px 24px 170px;
   line-height: 52px;
   color: #172b4d;
   flex: none;
@@ -106,7 +106,7 @@ body {
   height: 146px;
   left: 0;
   top: 0;
-  padding: 3px 12px 24px;
+  padding: 3px 24px 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -117,10 +117,10 @@ body {
 }
 
 .container .lets_contact {
-  width: 147px;
+  width: 157px;
   height: 24px;
-  margin-top: 20px;
-  padding-left: 12px;
+  margin-top: 40px;
+  padding-left: 24px;
 }
 
 .container .lets_contact .contact {
@@ -135,15 +135,13 @@ body {
 
 .social {
   padding-top: 5%;
-  margin: 0 auto;
   display: flex;
   padding-bottom: 6%;
 }
 
 .social-icons-set {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 2px;
 }
 
 .social-icon {
@@ -151,18 +149,18 @@ body {
   margin: 0 10px;
 }
 
-.social-icon a:hover {
+.social-icon :hover {
   color: #6070ff;
 }
 
 .social-icon a i {
-  margin-left: 20px;
   font-size: 20px;
   color: #505f79;
+  margin: 2px 12px;
 }
 
 .social-icon + .social-icon {
-  margin-left: 10px;
+  padding-left: 1px;
 }
 
 .deatails {
@@ -170,7 +168,7 @@ body {
   display: grid;
   padding: 16px;
   gap: 12px;
-  width: 327px;
+  width: 375px;
   height: 552px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -178,9 +176,10 @@ body {
 }
 
 .shot {
-  width: 295px;
+  width: 340px;
   height: 220px;
   background: url(./images/Snapshoot\ Portfolio.png);
+  background-size: cover;
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -441,8 +440,29 @@ body {
   border-radius: 8px;
 }
 
-.see-btn {
-  text-decoration: none;
+button {
+  appearance: auto;
+  text-rendering: auto;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: croshair;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 0em;
+  border-width: 2px;
+  border-style: none;
+  border-color: #fff;
+  border-image: initial;
+}
+
+.see-btn:hover {
+  color: #6070ff;
+}
+
+.see-btn:active {
+  color: #000;
 }
 
 .se {
@@ -457,6 +477,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   flex: none;
+}
+
+.se:hover {
+  color: #fff;
+  background-color: #396df2;
 }
 
 .footer {
@@ -514,6 +539,12 @@ body {
   width: 117px;
   height: 24px;
   flex: none;
+  padding: 24px;
+}
+
+.social2 {
+  padding-left: 18px;
+  margin-bottom: 6%;
 }
 
 .lets {
@@ -522,9 +553,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 22px;
-  margin-left: 12px;
-  padding: 12px;
+  padding-top: 12px;
   color: #7f8cff;
   flex: none;
 }
@@ -646,7 +675,7 @@ body {
 .jste {
   position: absolute;
   padding: 20px 80px 20px;
-  font-weight: bold;
+  font-weight: 500px;
   font-size: 17px;
   line-height: 20px;
   display: flex;
@@ -699,6 +728,6 @@ body {
 }
 
 .w {
-  width: 327px;
+  width: 357px;
   margin: 10px;
 }
