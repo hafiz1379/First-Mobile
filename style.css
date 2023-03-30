@@ -1,24 +1,34 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: lightgray;
 }
 
 body {
   width: 375px;
-  height: 718px;
-  margin: auto;
+  margin: 0 auto;
+  background-color: rgb(236, 234, 234);
 }
+
+.flex {
+  display: flex;
+}
+
+/* start header part */
 
 .header {
   height: 50px;
-  display: flex;
-  background-image: url(header-background-mobile.png);
+  background-image: url(./images/header-background-mobile.png);
   background-size: cover;
+  background-color: white;
 }
 
-.header .left {
+.header .Left_side {
   width: 50%;
   height: 100%;
 }
@@ -32,60 +42,49 @@ body {
   color: #333;
 }
 
-.header .left a {
+.header .Left_side a {
   text-decoration: none;
 }
 
-.header .left .logo {
+.header .Left_side .logo {
   font-size: 18px;
   font-weight: 700;
   padding: 8px;
   color: #6070ff;
+  margin-left: 5px;
 }
 
-.header .right {
+.header .Right_side {
   width: 50%;
   height: 100%;
   flex-direction: row;
   align-content: end;
 }
 
-.header .right .menubar {
-  display: flex;
+.header .Right_side div.bar {
   flex-direction: column;
   align-items: end;
   padding: 12px;
+  color: #6070ff;
+  font-size: large;
 }
 
-.header .right .menubar .menubar1 {
-  border: 2px solid #6070ff;
-  width: 20px;
-  margin: 1px;
-}
+/* end of header part */
 
-.header .right .menubar .menubar2 {
-  border: 2px solid #6070ff;
-  width: 20px;
-  margin: 1px;
-}
-
-.header .right .menubar .menubar3 {
-  border: 2px solid #6070ff;
-  width: 20px;
-  margin: 1px;
-}
+/* start container part */
 
 .container {
   width: 375px;
-  height: 591px;
-  margin-top: 90px;
-  background-image: url(header-shapes\ mobile.png);
+  height: 611px;
+  background-image: url(./images/header-shapes\ mobile.png);
   background-size: cover;
+  border-bottom-left-radius: 60px;
+  background-color: white;
 }
 
-.container .name {
+.container .me {
   width: 327px;
-  height: 150px;
+  height: 200px;
   font-weight: 700;
   font-size: 40px;
   padding: 90px 12px 170px;
@@ -96,25 +95,21 @@ body {
   flex-grow: 0;
 }
 
+.container .me h1 {
+  font-size: 40px;
+}
+
 .container .bio {
   width: 327px;
   height: 146px;
   left: 0;
   top: 0;
-  padding: 3px 12px 24px;
+  padding: 85px 12px 24px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* or 150% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -123,7 +118,7 @@ body {
 .container .lets_contact {
   width: 147px;
   height: 24px;
-  margin-top: 20px;
+  margin-top: 90px;
   padding-left: 12px;
 }
 
@@ -132,25 +127,16 @@ body {
   font-weight: 500;
   font-size: 11px;
   line-height: 24px;
-
-  /* identical to box height, or 150% */
-
-  /* Primary/B300 */
-
   color: #7f8cff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.social {
-  padding-top: 5%;
+.social_media {
+  padding-top: 0%;
   margin: 0 auto;
   display: flex;
-  padding-bottom: 6%;
 }
 
 .social-icons-set {
@@ -161,7 +147,7 @@ body {
 
 .social-icon {
   list-style: none;
-  margin: 0 10px;
+  margin: 10px;
 }
 
 .social-icon a:hover {
@@ -172,7 +158,303 @@ body {
   font-size: 20px;
 }
 
-/* Add some margin between the icons */
 .social-icon + .social-icon {
   margin-left: 10px;
+}
+
+/* coming soon */
+
+/* Start middl section  */
+
+.work_section {
+  display: grid;
+}
+
+.middle_section {
+  height: 552px;
+  width: 343px;
+  margin: 100px 16px 0 16px;
+  border-radius: 15px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.middle_section div.pic {
+  width: 295px;
+  height: 220px;
+  margin: 20px 23px;
+  gap: 20px;
+}
+
+.middle_section div.name {
+  width: 295px;
+  height: 40px;
+  margin: 5px 20px;
+}
+
+.middle_section div.name h1 {
+  font-weight: 700;
+  font-size: 32px;
+  columns: #172b4d;
+  line-height: 44px;
+}
+
+.middle_section div.descript {
+  width: 295px;
+  height: 30px;
+  margin: 5px 20px;
+}
+
+.middle_section div.descript div.camp {
+  width: 30%;
+  color: #344563;
+}
+
+.middle_section div.descript div.year {
+  width: 70%;
+  color: #7a869a;
+  font-size: 13px;
+}
+
+.middle_section div.descript div.year ul.list {
+  justify-content: start;
+}
+
+.middle_section div.descript div.year ul.list li {
+  margin: 0 15px;
+}
+
+.middle_section div.task {
+  width: 295px;
+  height: 76px;
+  margin: 5px 20px;
+}
+
+.middle_section div.task p {
+  color: #344563;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.middle_section div.web {
+  width: 295px;
+  height: 24px;
+  margin: 0 20px;
+}
+
+.middle_section div.web div.right {
+  width: 80%;
+  justify-content: center;
+}
+
+.middle_section div.web div.right ul {
+  list-style-type: none;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+}
+
+.middle_section div.link a {
+  text-decoration: none;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px 0 0 4px;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  font-style: normal;
+}
+
+section.about div.link a {
+  text-decoration: none;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px 0 0 4px;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.middle_section div.link a:hover {
+  background-color: #6070ff;
+  height: 100%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+section.about div.link a:hover {
+  background-color: #6070ff;
+  height: 100%;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+.middle_section div.web div.right ul a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 12px;
+  background-color: #ebebff;
+  border-radius: 5px;
+  color: #6070ff;
+}
+
+.middle_section div.web div.right div.front {
+  background-color: #ebebff;
+  border-radius: 5px;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.middle_section div.web div.right div.front a {
+  text-decoration: none;
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 10px;
+}
+
+.middle_section div.link {
+  width: 110px;
+  height: 40px;
+  margin: 0 20px;
+
+  /* comment */
+  border: 1px solid #7f8cff;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* End middle part  */
+
+/* Start About Yourself Section  */
+
+section.about {
+  height: 850px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  margin-top: 100px;
+  border-top-right-radius: 60px;
+}
+
+section.about div.am h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+  margin-top: 60px;
+}
+
+section.about div.disc {
+  margin-bottom: 10px;
+}
+
+section.about div.disc p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #344563;
+}
+
+section.about div.lets_contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+section.about div.link {
+  width: 160px;
+  height: 45px;
+
+  /* comment */
+  border: 1px solid #7f8cff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 5px 0 0 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section.about div.select {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.about div.select ul.lang {
+  list-style-type: none;
+  height: 100px;
+  width: 100%;
+}
+
+section.about div.select ul.lang li.lang div.lang,
+div.framework,
+div.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+section.about div.select ul.lang li.lang div.framework {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+section.about div.select ul.lang li.lang div.skill {
+  padding: 15px 0 20px 0;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+section.about div.select ul.lang li.lang h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+section.about div.select ul.lang li.lang i {
+  margin-right: 15px;
+}
+
+section.about div.select ul.lang div.contain {
+  height: 180px;
+  width: 96%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+section.about div.select ul.lang div.contain ul li.con {
+  background-color: #f7f7f9;
+  margin: 0 5px 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+section.about div.select ul.lang div.contain ul li.con img {
+  /* comment */
+  margin: 0 20px 5px 10px;
 }
