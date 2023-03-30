@@ -217,7 +217,6 @@ body {
 
 .bo {
   display: gird;
-  margin-top: 0px;
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -531,7 +530,7 @@ button {
   padding: 12px;
   gap: 10px;
   margin-left: 25px;
-  margin-top: 15px;
+  margin-top: 5px;
   width: 162px;
   height: 48px;
   border: 1px solid #6070ff;
