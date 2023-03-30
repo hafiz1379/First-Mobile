@@ -18,7 +18,7 @@ body {
 }
 
 .fbody {
-  margin-bottom: 144px;
+  margin-bottom: 50px;
 }
 
 .header {
@@ -156,12 +156,16 @@ body {
   padding-left: 1px;
 }
 
+.grid {
+  width: 375px;
+  margin-left: 15px;
+}
+
 .deatails {
   margin-top: 88px;
-  display: grid;
-  padding: 16px;
+  padding: 15px;
   gap: 12px;
-  width: 375px;
+  width: 327px;
   height: 552px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -170,10 +174,9 @@ body {
 
 .deatails2 {
   margin-top: 88px;
-  display: grid;
-  padding: 16px;
+  padding: 15px;
   gap: 12px;
-  width: 375px;
+  width: 327px;
   height: 596px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -181,7 +184,7 @@ body {
 }
 
 .shot {
-  width: 340px;
+  width: 295px;
   height: 220px;
   background: url(./images/Snapshoot\ Portfolio.png);
   background-size: cover;
@@ -189,7 +192,7 @@ body {
 }
 
 .shot2 {
-  width: 340px;
+  width: 295px;
   height: 220px;
   background: url(./images/Snapshoot\ Portfolio1.png);
   background-size: cover;
@@ -197,7 +200,7 @@ body {
 }
 
 .shot3 {
-  width: 340px;
+  width: 295px;
   height: 220px;
   background: url(./images/Snapshoot\ Portfolio2.png);
   background-size: cover;
@@ -205,7 +208,7 @@ body {
 }
 
 .shot4 {
-  width: 340px;
+  width: 295px;
   height: 220px;
   background: url(./images/Snapshoot\ Portfolio3.png);
   background-size: cover;
@@ -213,9 +216,8 @@ body {
 }
 
 .bo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: gird;
+  margin-top: 0px;
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -223,20 +225,22 @@ body {
 }
 
 .pro-title {
+  margin-top: 10px;
   width: 295px;
   height: 36px;
   font-weight: 700px;
-  font-size: 32px;
+  font-size: 22px;
   line-height: 44px;
   color: #172b4d;
 }
 
 .pro-title2 {
-  margin-top: -20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   width: 295px;
-  height: 80px;
+  height: 60px;
   font-weight: 500px;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 44px;
   color: #172b4d;
 }
@@ -245,6 +249,7 @@ body {
   display: flex;
   align-items: center;
   align-self: self-start;
+  margin-top: 10px;
   gap: 12px;
   width: 236px;
   height: 32px;
@@ -257,8 +262,6 @@ body {
 }
 
 .item1 {
-  display: flex;
-  align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
   width: 55px;
@@ -285,8 +288,6 @@ body {
 }
 
 .item3 {
-  display: flex;
-  align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
   width: 79px;
@@ -312,8 +313,6 @@ body {
 }
 
 .item5 {
-  display: flex;
-  align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
   width: 29px;
@@ -333,6 +332,7 @@ body {
 .text {
   width: 295px;
   height: 76px;
+  margin: 5px;
   font-weight: 450;
   font-size: 15px;
   line-height: 24px;
@@ -426,7 +426,7 @@ body {
   width: 144px;
   display: flex;
   align-items: center;
-  margin-top: 18px;
+  margin-top: 40px;
   position: absolute;
   border-radius: 8px;
 }
@@ -438,25 +438,29 @@ button {
   border: 1px solid #6070ff;
 }
 
-.see-btn:active {
-  color: #000;
-}
-
 .se {
   color: #396df2;
   font-weight: 510;
   font-size: 17px;
 }
 
+.see-btn:visited {
+  background-color: rgb(199, 213, 223);
+}
+
 .see-btn:hover {
   background-color: rgb(218, 217, 217);
+}
+
+.see-btn:active {
+  background-color: rgb(10, 207, 92);
 }
 
 .footer {
   position: absolute;
   width: 375px;
   height: 1263px;
-  margin-top: 144px;
+  margin-top: 114px;
   background: #fff;
   border-radius: 0 70px 0 0;
 }
@@ -507,13 +511,13 @@ button {
 }
 
 .social2 {
-  padding-left: 10px;
+  padding: 13px;
 }
 
 .lets {
   width: 197px;
   height: 24px;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   padding-top: 12px;
@@ -536,16 +540,24 @@ button {
 }
 
 .box3c {
-  width: 138px;
-  height: 24px;
-  font-weight: b;
+  width: 100%;
+  height: 100%;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+}
+
+.box3:visited {
+  background-color: rgb(24, 182, 169);
+}
+
+.box3:hover {
+  background-color: rgb(187, 191, 208);
+}
+
+.box3:active {
+  background-color: rgb(10, 207, 92);
 }
 
 .skills {
@@ -582,7 +594,7 @@ button {
   position: absolute;
   padding: 24px 38px;
   text-align: center;
-  font-weight: 500px;
+  font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   align-items: center;
@@ -602,6 +614,10 @@ button {
   list-style-type: none;
 }
 
+.prlist {
+  list-style-type: none;
+}
+
 .list {
   display: flex;
   flex-direction: column;
@@ -611,6 +627,9 @@ button {
   width: 327px;
   height: 248.15px;
   margin: auto;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
   margin-top: -390px;
   list-style-type: none;
   order: 1;
@@ -626,16 +645,12 @@ button {
 .jste {
   position: absolute;
   padding: 20px 80px 20px;
-  font-weight: 500px;
-  font-size: 17px;
-  line-height: 20px;
   display: flex;
   align-items: center;
   color: #253858;
 }
 
 .im {
-  position: absolute;
   left: 20px;
   padding-top: 8px;
   padding-left: 25px;
