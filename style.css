@@ -458,3 +458,55 @@ section.about div.select ul.lang div.contain ul li.con img {
   /* comment */
   margin: 0 20px 5px 10px;
 }
+
+/* End Section part */
+
+/* Start Contact form */
+
+.contact-form {
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  /* left: 444px; */
+  top: 4410px;
+  background: #6070FF;
+  border-radius: 80px 0 0 0;
+  overflow: hidden;
+  font-family: poppins;
+}
+
+.formbg {
+  width: 265px;
+  height: 709px;
+  background-image: url(./contact\ form\ shapes-mobile@2x.png);
+  background-size: contain;
+  position: absolute;
+  top: 21px;
+  left: 160px;
+}
+.form-header {
+  margin: 100px auto;
+  background-color: #172b4d;
+  width: 327px;
+  position: relative;
+}
+
+.form-header__title {
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 70px;
+  font-size: 34px;
+}
+
+.form-header__text {
+  color: #fff;
+  position: absolute;
+  top: 65px;
+  width: 327px;
+  height: 137px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+}
