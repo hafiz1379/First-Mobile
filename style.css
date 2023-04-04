@@ -343,7 +343,7 @@ section.about div.link a:hover {
 /* Start About Yourself Section  */
 
 section.about {
-  height: 850px;
+  height: 1263px;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -537,6 +537,9 @@ section.about div.select ul.lang div.contain ul li.con img {
   padding: 15px 36px 110px 16px;
   margin: 8px 0;
   width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
   border: 1px solid #CFD8DC;
   border-radius: 8px;
   outline: 0;
