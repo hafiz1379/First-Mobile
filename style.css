@@ -468,10 +468,9 @@ section.about div.select ul.lang div.contain ul li.con img {
   width: 375px;
   height: 779px;
   top: 4410px;
-  background: #6070FF;
+  background: #6070ff;
   border-radius: 80px 0 0 0;
   overflow: hidden;
-  font-family: poppins;
 }
 
 .formbg {
@@ -483,6 +482,7 @@ section.about div.select ul.lang div.contain ul li.con img {
   top: 21px;
   left: 160px;
 }
+
 .form-header {
   margin: 100px auto;
   background-color: #172b4d;
@@ -528,7 +528,7 @@ section.about div.select ul.lang div.contain ul li.con img {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   outline: 0;
 }
@@ -540,7 +540,7 @@ section.about div.select ul.lang div.contain ul li.con img {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   outline: 0;
 }
@@ -551,7 +551,7 @@ section.about div.select ul.lang div.contain ul li.con img {
   margin-top: 20px;
   border: 2px solid #fff;
   padding: 12px 16px;
-  background: #FFF;
+  background: #fff;
   border-radius: 8px;
   font-weight: 500;
   font-size: 17px;
@@ -559,25 +559,24 @@ section.about div.select ul.lang div.contain ul li.con img {
   display: flex;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070FF;
-
+  color: #6070ff;
 }
 
 .formbtn:hover {
-  background: #6070FF;
+  background: #6070ff;
   color: #fff;
   cursor: pointer;
 }
 
 .shape {
-position: absolute;
-width: 134px;
-height: 5px;
-top: 655px;
-left: 120px;
-background: #0D151E;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  top: 655px;
+  left: 120px;
+  background: #0d151e;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
