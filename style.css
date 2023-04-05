@@ -343,7 +343,7 @@ section.about div.link a:hover {
 /* Start About Yourself Section  */
 
 section.about {
-  height: 1263px;
+  height: 1063px;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -464,60 +464,57 @@ section.about div.select ul.lang div.contain ul li.con img {
 /* Start Contact form */
 
 .contact-form {
-  position: absolute;
   width: 375px;
   height: 779px;
-  top: 4410px;
+  margin-top: -70px;
   background: #6070ff;
   border-radius: 80px 0 0 0;
   overflow: hidden;
+  display: flex; /* add this line */
+  flex-direction: column;
+  align-items: center; /* add this line */
 }
 
 .formbg {
-  width: 265px;
-  height: 709px;
-  background-image: url(./images/contact\ form\ shapes-mobile@2x.png);
-  background-size: contain;
-  position: absolute;
-  top: 21px;
-  left: 160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: -120px;
+  margin-top: 25px;
 }
 
 .form-header {
-  margin: 100px auto;
-  background-color: #172b4d;
+  margin: 0 auto;
+  margin-top: -620px;
   width: 327px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .form-header__title {
   color: #fff;
-  position: absolute;
-  top: 5px;
-  left: 70px;
   font-size: 34px;
 }
 
 .form-header__text {
   color: #fff;
-  position: absolute;
-  top: 65px;
   width: 327px;
   height: 137px;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 21.5px;
   line-height: 28px;
   text-align: center;
-}
-
-.inputs {
-  position: relative;
+  margin-top: 5px;
 }
 
 .form {
-  position: absolute;
-  top: 220px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-top: 15px;
+  width: 350px;
   padding: 15px;
 }
 
@@ -528,7 +525,7 @@ section.about div.select ul.lang div.contain ul li.con img {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  border: 1px solid #cfd8dc;
+  border: 1px solid #CFD8DC;
   border-radius: 8px;
   outline: 0;
 }
@@ -540,7 +537,7 @@ section.about div.select ul.lang div.contain ul li.con img {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  border: 1px solid #cfd8dc;
+  border: 1px solid #CFD8DC;
   border-radius: 8px;
   outline: 0;
 }
@@ -551,7 +548,7 @@ section.about div.select ul.lang div.contain ul li.con img {
   margin-top: 20px;
   border: 2px solid #fff;
   padding: 12px 16px;
-  background: #fff;
+  background: #FFF;
   border-radius: 8px;
   font-weight: 500;
   font-size: 17px;
@@ -559,24 +556,30 @@ section.about div.select ul.lang div.contain ul li.con img {
   display: flex;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #6070FF;
+
 }
 
 .formbtn:hover {
-  background: #6070ff;
+  background: #6070FF;
+color: #fff;
+box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+border-radius: 8px;
+}
+
+.formbtn:active {
+  background: #2230D2;
   color: #fff;
-  cursor: pointer;
+border-radius: 8px;
 }
 
 .shape {
-  position: absolute;
-  width: 134px;
-  height: 5px;
-  top: 655px;
-  left: 120px;
-  background: #0d151e;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 134px;
+height: 5px;
+margin: 10px auto;
+background: #0D151E;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
