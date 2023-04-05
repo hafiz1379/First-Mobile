@@ -573,12 +573,12 @@ section.about div.select ul.lang div.contain ul li.con img {
 }
 
 .shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 134px;
   height: 5px;
   margin: 10px auto;
   background: #0d151e;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
