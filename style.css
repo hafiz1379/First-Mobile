@@ -343,7 +343,7 @@ section.about div.link a:hover {
 /* Start About Yourself Section  */
 
 section.about {
-  height: 1263px;
+  height: 1063px;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -462,62 +462,58 @@ section.about div.select ul.lang div.contain ul li.con img {
 /* End Section part */
 
 /* Start Contact form */
-
 .contact-form {
-  position: absolute;
   width: 375px;
   height: 779px;
-  top: 4410px;
+  margin-top: -70px;
   background: #6070ff;
   border-radius: 80px 0 0 0;
   overflow: hidden;
+  display: flex; /* add this line */
+  flex-direction: column;
+  align-items: center; /* add this line */
 }
 
 .formbg {
-  width: 265px;
-  height: 709px;
-  background-image: url(./images/contact\ form\ shapes-mobile@2x.png);
-  background-size: contain;
-  position: absolute;
-  top: 21px;
-  left: 160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: -120px;
+  margin-top: 25px;
 }
 
 .form-header {
-  margin: 100px auto;
-  background-color: #172b4d;
+  margin: 0 auto;
+  margin-top: -620px;
   width: 327px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .form-header__title {
   color: #fff;
-  position: absolute;
-  top: 5px;
-  left: 70px;
   font-size: 34px;
 }
 
 .form-header__text {
   color: #fff;
-  position: absolute;
-  top: 65px;
   width: 327px;
   height: 137px;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 21.5px;
   line-height: 28px;
   text-align: center;
-}
-
-.inputs {
-  position: relative;
+  margin-top: 5px;
 }
 
 .form {
-  position: absolute;
-  top: 220px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-top: 15px;
+  width: 350px;
   padding: 15px;
 }
 
@@ -565,15 +561,20 @@ section.about div.select ul.lang div.contain ul li.con img {
 .formbtn:hover {
   background: #6070ff;
   color: #fff;
-  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+.formbtn:active {
+  background: #2230d2;
+  color: #fff;
+  border-radius: 8px;
 }
 
 .shape {
-  position: absolute;
   width: 134px;
   height: 5px;
-  top: 655px;
-  left: 120px;
+  margin: 10px auto;
   background: #0d151e;
   border-radius: 10px;
   display: flex;
