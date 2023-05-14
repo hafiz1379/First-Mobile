@@ -106,15 +106,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* or 150% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -132,15 +124,7 @@ body {
   font-weight: 500;
   font-size: 11px;
   line-height: 24px;
-
-  /* identical to box height, or 150% */
-
-  /* Primary/B300 */
-
   color: #7f8cff;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -172,7 +156,6 @@ body {
   font-size: 20px;
 }
 
-/* Add some margin between the icons */
 .social-icon + .social-icon {
   margin-left: 10px;
 }
